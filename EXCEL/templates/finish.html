@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Výsledek</title>
+    <link rel="stylesheet" href="{{ url_for('excel.static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="page">
+
+<div class="lesson-card">
+
+<h1>🏆 Hotovo</h1>
+
+<h2>{{ score }} / {{ max_score }} bodů</h2>
+
+<h2>{{ percent }} %</h2>
+
+<h1>Známka {{ grade }}</h1>
+
+</div>
+
+</div>
+
+</body>
+</html>

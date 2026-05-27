@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Občanka - test</title>
+    <link rel="stylesheet" href="{{ url_for('obcanka.static', filename='style.css') }}">
+</head>
+<body>
+<div class="page">
+    <header>
+        <div>
+            <h1>Občanka - test</h1>
+            <p>Přihlášený žák: <strong>{{ surname }}</strong></p>
+        </div>
+        <a class="restart" href="{{ url_for('obcanka.restart') }}">Odhlásit</a>
+    </header>
+
+    <form method="post" class="test-form">
+        {% for q in questions %}
+            <div class="question-card">
+                <h2>{{ loop.index }}. {{ q.question }}</h2>
+
+                <label class="answer">
+                    <input type="radio" name="q{{ q.id }}" value="a" required>
+                    <span>A) {{ q.a }}</span>
+                </label>
+
+                <label class="answer">
+                    <input type="radio" name="q{{ q.id }}" value="b">
+                    <span>B) {{ q.b }}</span>
+                </label>
+
+                <label class="answer">
+                    <input type="radio" name="q{{ q.id }}" value="c">
+                    <span>C) {{ q.c }}</span>
+                </label>
+
+                <label class="answer">
+                    <input type="radio" name="q{{ q.id }}" value="d">
+                    <span>D) {{ q.d }}</span>
+                </label>
+            </div>
+        {% endfor %}
+
+        <button class="submit-btn" type="submit">Odevzdat test</button>
+    </form>
+</div>
+</body>
+</html>

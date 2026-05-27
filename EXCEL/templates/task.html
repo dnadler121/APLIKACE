@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Excel Akademie</title>
+    <link rel="stylesheet" href="{{ url_for('excel.static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="page">
+
+<div class="top-info">
+    <div>Úloha {{ index }}/{{ total }}</div>
+    <div>⭐ {{ score }} bodů</div>
+    <div>{{ percent }} %</div>
+    <div>Známka {{ grade }}</div>
+</div>
+
+<div class="lesson-card">
+
+    <h1>{{ q.title }}</h1>
+
+    <p>{{ q.intro }}</p>
+
+    <div class="task-box">
+        {{ q.task }}
+    </div>
+
+    <table class="excel-table">
+
+        {% for row in q.rows %}
+        <tr>
+
+            {% for cell in row %}
+
+                {% set cell_name = q.cols[loop.index0] ~ row[0] %}
+
+                {% if solved and cell_name == q.result_cell %}
+                    <td class="result-cell">{{ q.result }}</td>
+                {% else %}
+                    <td>{{ cell }}</td>
+                {% endif %}
+
+            {% endfor %}
+
+        </tr>
+        {% endfor %}
+
+    </table>
+
+    {% if not solved %}
+
+    <form method="POST">
+
+        <input
+            type="text"
+            name="answer"
+            placeholder="Napiš vzorec..."
+            required
+        >
+
+        <button type="submit">
+            Zkontrolovat
+        </button>
+
+    </form>
+
+    {% endif %}
+
+    <div class="message">
+        {{ message }}
+    </div>
+
+    {% if solved %}
+
+    <a class="next-btn" href="/next">
+        Další úloha ➜
+    </a>
+
+    {% endif %}
+
+</div>
+
+</div>
+
+</body>
+</html>

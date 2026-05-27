@@ -1,0 +1,51 @@
+﻿id;question;a;b;c;d;correct
+1;Co znamená demokracie?;Vláda jednoho člověka;Vláda lidu;Vláda armády;Vláda soudců;b
+2;Kdo je občan?;Člověk, který žije ve městě;Člověk se státním občanstvím;Turista;Pouze dospělý;b
+3;Od kolika let lze volit v ČR?;15;16;18;21;c
+4;Co je ústava?;Rozvrh;Základní zákon státu;Dopis;Vyhláška školy;b
+5;Kdo schvaluje zákony?;Parlament;Policie;Škola;Soud;a
+6;Kdo je starosta?;Prezident kraje;Vedení obce;Ředitel školy;Soudce;b
+7;Co je trestný čin?;Závažné porušení zákona;Domácí úkol;Přestupek;Nehoda;a
+8;Co je diskriminace?;Pomoc slabším;Nerovné zacházení;Pochvala;Soutěž;b
+9;Kdo chrání veřejný pořádek?;Policie;Pošta;Knihovna;Divadlo;a
+10;Co je občanský průkaz?;Průkaz totožnosti;Platební karta;Jízdenka;Pas;a
+11;Co je právo?;Soubor pravidel;Dopis;Názor;Hra;a
+12;Co je povinnost?;To co musím splnit;Volný čas;Hra;Dárek;a
+13;Kdo rozhoduje u soudu?;Soudce;Starosta;Učitel;Policista;a
+14;Co je Evropská unie?;Spolek evropských států;Město;Škola;Firma;a
+15;Hlavní město ČR?;Brno;Praha;Plzeň;Liberec;b
+16;Co je obec?;Územní celek;Firma;Stát;Kraj;a
+17;Kdo je hejtman?;Představitel kraje;Ředitel školy;Prezident;Starosta;a
+18;Co je kraj?;Vyšší územní celek;Město;Vesnice;Firma;a
+19;Co znamená odpovědnost?;Nést následky;Opisovat;Neposlouchat;Vyhýbat se práci;a
+20;Co je smlouva?;Dohoda;Zákaz;Příkaz;Trest;a
+21;Co je šikana?;Ubližování;Sport;Pochvala;Výlet;a
+22;Co je kyberšikana?;Ubližování přes internet;Hraní her;Nakupování;Programování;a
+23;Co je státní symbol?;Vlajka;Mobil;Lavice;Sešit;a
+24;Kdo jmenuje vládu?;Prezident;Starosta;Policie;Soud;a
+25;Co je zákon?;Závazné pravidlo;Domácí úkol;Názor;Dopis;a
+26;Co je lidská důstojnost?;Hodnota člověka;Majetek;Plat;Výška;a
+27;Kdo může být prezidentem ČR?;Občan starší 40 let;Každý občan;Pouze učitel;Pouze poslanec;a
+28;Jak dlouho trvá volební období prezidenta?;2 roky;4 roky;5 let;10 let;c
+29;Co je Senát?;Část Parlamentu;Soud;Policie;Škola;a
+30;Kolik komor má Parlament ČR?;1;2;3;4;b
+31;Co je Poslanecká sněmovna?;Komora Parlamentu;Soud;Škola;Ministerstvo;a
+32;Co je referendum?;Hlasování občanů;Soud;Přestupek;Daně;a
+33;Kdo vydává občanský průkaz?;Úřad;Škola;Policie;Pošta;a
+34;Co je přestupek?;Méně závažné porušení zákona;Těžký zločin;Sport;Smlouva;a
+35;Co je nezaměstnanost?;Když člověk nemá práci;Když studuje;Když cestuje;Když sportuje;a
+36;Co jsou lidská práva?;Práva všech lidí;Zákazy;Daně;Tresty;a
+37;Kdo může podat stížnost?;Každý občan;Jen prezident;Jen policista;Nikdo;a
+38;Co je korupce?;Zneužití moci;Pomoc lidem;Dobrovolnictví;Sport;a
+39;Kdo je ministr?;Člen vlády;Starosta;Soudce;Ředitel;a
+40;Co je vláda?;Výkonná moc;Soud;Škola;Firma;a
+41;Co je soud?;Instituce rozhodující spory;Obchod;Nemocnice;Úřad;a
+42;Co je svoboda slova?;Možnost vyjadřovat názory;Možnost vše ničit;Zákaz mluvit;Příkaz mlčet;a
+43;Co je daň?;Povinná platba státu;Dobrovolný dar;Pokuta;Půjčka;a
+44;Co je státní rozpočet?;Plán příjmů a výdajů státu;Mapa;Zákoník;Volby;a
+45;Co je inflace?;Růst cen;Pokles obyvatel;Nezaměstnanost;Volby;a
+46;Co je rodina?;Skupina blízkých lidí;Firma;Úřad;Třída;a
+47;Co je manželství?;Svazek dvou lidí;Volby;Soud;Zákon;a
+48;Co je vzdělání?;Proces učení;Sport;Práce;Volby;a
+49;Co je tolerance?;Respekt k ostatním;Nesnášenlivost;Trest;Příkaz;a
+50;Co je solidarita?;Pomoc druhým;Soutěž;Trest;Zákaz;a

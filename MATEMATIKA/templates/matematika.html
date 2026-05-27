@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Matematický test</title>
+
+    <link rel="stylesheet" href="{{ url_for('matematika.static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Matematický test</h1>
+
+    <form method="POST">
+
+    <div class="timer">
+        ⏳ Zbývá čas: 19:53
+    </div>
+
+    <!-- NEROVNICE -->
+    <div class="card">
+
+        <h2>1> Nerovnice</h2>
+
+        <div class="zadani">
+            (x + 2) / (x - 3) > 0
+        </div>
+
+        <div class="line">
+            x + <input name="n1"> > 0 a x - <input name="n2"> > 0
+        </div>
+
+        <div class="line">
+            x > <input name="n3"> a x > <input name="n4">
+        </div>
+
+        <div class="line">
+            K₁ = ( <input name="n5"> ; ∞ )
+        </div>
+
+        <div class="line">
+            x + <input name="n6"> < 0 a x - <input name="n7"> < 0
+        </div>
+
+        <div class="line">
+            x < <input name="n8"> a x < <input name="n9">
+        </div>
+
+        <div class="line">
+            K₂ = ( -∞ ; <input name="n10"> )
+        </div>
+
+    </div>
+
+    <!-- INTERVALY -->
+    <div class="card">
+
+        <h2>2> Intervaly</h2>
+
+        <div class="zadani">
+            A = ( -∞ ; 4 ) <br>
+            B = (2 ; 5)
+        </div>
+
+        <div class="line">
+            K = A ∩ B
+        </div>
+
+        <div class="line">
+            K = ( <input name="i1"> ; <input name="i2"> )
+        </div>
+
+    </div>
+
+    <!-- ROVNICE -->
+    <!-- ROVNICE -->
+    <div class="card">
+
+        <h2>3> Rovnice s neznámou ve jmenovateli</h2>
+
+        <div class="zadani">
+            2 / (x - 4) + 2 = 4
+        </div>
+
+        <div class="line">
+            2 + 2 · (x - <input name="r1">) =
+            4 · (x - <input name="r2">)
+        </div>
+
+        <div class="line">
+            2 + 2x - <input name="r3"> =
+            4x - <input name="r4">
+        </div>
+
+        <div class="line">
+            2x - 4x =
+            -<input name="r5"> - 2 + <input name="r6">
+        </div>
+
+        <div class="line">
+            -2x = -<input name="r7">
+        </div>
+
+        <div class="line">
+            x = <input name="r8">
+        </div>
+
+    </div>
+        <!-- SOUSTAVA -->
+        <div class="card">
+
+        <h2>4> Soustava rovnic</h2>
+
+        <div class="zadani">
+            x + y = 5 <br>
+            3x - 4y = -6
+        </div>
+
+        <div class="line">
+            -3x - 3y = <input name="s1">
+        </div>
+
+        <div class="line">
+            3x - 4y = <input name="s2">
+        </div>
+
+        <div class="line">
+            <input name="s3">y = <input name="s4">
+        </div>
+
+        <div class="line">
+            y = <input name="s5">
+        </div>
+
+        <div class="line">
+            x + <input name="s6"> = <input name="s7">
+        </div>
+
+        <div class="line">
+            x = <input name="s8">
+        </div>
+
+    </div>
+
+    <button type="submit">
+        Odevzdat test
+    </button>
+
+    {% if vysledek %}
+
+    <div class="card result">
+
+        <h2>Výsledek testu</h2>
+
+        <p><strong>Body:</strong> {{ vysledek }}</p>
+
+        <p><strong>Úspěšnost:</strong> {{ procenta }} %</p>
+
+        <p><strong>Známka:</strong> {{ znamka }}</p>
+
+    </div>
+
+    {% endif %}
+
+    </form>
+
+</div>
+
+</body>
+</html>

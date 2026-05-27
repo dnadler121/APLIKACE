@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Občanka - přihlášení</title>
+    <link rel="stylesheet" href="{{ url_for('obcanka.static', filename='style.css') }}">
+</head>
+<body>
+<div class="page center">
+    <div class="box login-box">
+        <h1>Občanka</h1>
+        <p class="subtitle">Test z občanské výchovy</p>
+
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+
+        <form method="post">
+            <label>Zadej příjmení:</label>
+            <input class="text-input" type="text" name="surname" placeholder="Např. Novák" autocomplete="off">
+            <button type="submit">Začít test</button>
+        </form>
+
+        <p class="small">Test má 30 otázek. U každé otázky je jedna správná odpověď.</p>
+    </div>
+</div>
+</body>
+</html>

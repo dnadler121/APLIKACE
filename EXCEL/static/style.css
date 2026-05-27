@@ -1,0 +1,89 @@
+body {
+    background: #eefcff;
+    font-family: Arial;
+    margin: 0;
+}
+
+.page {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+}
+
+.hero,
+.lesson-card {
+    background: white;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.top-info {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.top-info div {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.task-box {
+    background: #e9fffb;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.excel-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.excel-table td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.result-cell {
+    background: #d4ffd4;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+input {
+    flex: 1;
+    height: 55px;
+    border-radius: 15px;
+    border: 2px solid #1976ff;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+button,
+.start-btn,
+.next-btn {
+    background: #0c9b63;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 22px;
+}
