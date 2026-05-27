@@ -1,51 +1,51 @@
-﻿id;question;a;b;c;d;correct
-1;Co znamená demokracie?;Vláda jednoho člověka;Vláda lidu;Vláda armády;Vláda soudců;b
-2;Kdo je občan?;Člověk, který žije ve městě;Člověk se státním občanstvím;Turista;Pouze dospělý;b
-3;Od kolika let lze volit v ČR?;15;16;18;21;c
-4;Co je ústava?;Rozvrh;Základní zákon státu;Dopis;Vyhláška školy;b
-5;Kdo schvaluje zákony?;Parlament;Policie;Škola;Soud;a
-6;Kdo je starosta?;Prezident kraje;Vedení obce;Ředitel školy;Soudce;b
-7;Co je trestný čin?;Závažné porušení zákona;Domácí úkol;Přestupek;Nehoda;a
-8;Co je diskriminace?;Pomoc slabším;Nerovné zacházení;Pochvala;Soutěž;b
-9;Kdo chrání veřejný pořádek?;Policie;Pošta;Knihovna;Divadlo;a
-10;Co je občanský průkaz?;Průkaz totožnosti;Platební karta;Jízdenka;Pas;a
-11;Co je právo?;Soubor pravidel;Dopis;Názor;Hra;a
-12;Co je povinnost?;To co musím splnit;Volný čas;Hra;Dárek;a
-13;Kdo rozhoduje u soudu?;Soudce;Starosta;Učitel;Policista;a
-14;Co je Evropská unie?;Spolek evropských států;Město;Škola;Firma;a
-15;Hlavní město ČR?;Brno;Praha;Plzeň;Liberec;b
-16;Co je obec?;Územní celek;Firma;Stát;Kraj;a
-17;Kdo je hejtman?;Představitel kraje;Ředitel školy;Prezident;Starosta;a
-18;Co je kraj?;Vyšší územní celek;Město;Vesnice;Firma;a
-19;Co znamená odpovědnost?;Nést následky;Opisovat;Neposlouchat;Vyhýbat se práci;a
-20;Co je smlouva?;Dohoda;Zákaz;Příkaz;Trest;a
-21;Co je šikana?;Ubližování;Sport;Pochvala;Výlet;a
-22;Co je kyberšikana?;Ubližování přes internet;Hraní her;Nakupování;Programování;a
-23;Co je státní symbol?;Vlajka;Mobil;Lavice;Sešit;a
-24;Kdo jmenuje vládu?;Prezident;Starosta;Policie;Soud;a
-25;Co je zákon?;Závazné pravidlo;Domácí úkol;Názor;Dopis;a
-26;Co je lidská důstojnost?;Hodnota člověka;Majetek;Plat;Výška;a
-27;Kdo může být prezidentem ČR?;Občan starší 40 let;Každý občan;Pouze učitel;Pouze poslanec;a
-28;Jak dlouho trvá volební období prezidenta?;2 roky;4 roky;5 let;10 let;c
-29;Co je Senát?;Část Parlamentu;Soud;Policie;Škola;a
-30;Kolik komor má Parlament ČR?;1;2;3;4;b
-31;Co je Poslanecká sněmovna?;Komora Parlamentu;Soud;Škola;Ministerstvo;a
-32;Co je referendum?;Hlasování občanů;Soud;Přestupek;Daně;a
-33;Kdo vydává občanský průkaz?;Úřad;Škola;Policie;Pošta;a
-34;Co je přestupek?;Méně závažné porušení zákona;Těžký zločin;Sport;Smlouva;a
-35;Co je nezaměstnanost?;Když člověk nemá práci;Když studuje;Když cestuje;Když sportuje;a
-36;Co jsou lidská práva?;Práva všech lidí;Zákazy;Daně;Tresty;a
-37;Kdo může podat stížnost?;Každý občan;Jen prezident;Jen policista;Nikdo;a
-38;Co je korupce?;Zneužití moci;Pomoc lidem;Dobrovolnictví;Sport;a
-39;Kdo je ministr?;Člen vlády;Starosta;Soudce;Ředitel;a
-40;Co je vláda?;Výkonná moc;Soud;Škola;Firma;a
-41;Co je soud?;Instituce rozhodující spory;Obchod;Nemocnice;Úřad;a
-42;Co je svoboda slova?;Možnost vyjadřovat názory;Možnost vše ničit;Zákaz mluvit;Příkaz mlčet;a
-43;Co je daň?;Povinná platba státu;Dobrovolný dar;Pokuta;Půjčka;a
-44;Co je státní rozpočet?;Plán příjmů a výdajů státu;Mapa;Zákoník;Volby;a
-45;Co je inflace?;Růst cen;Pokles obyvatel;Nezaměstnanost;Volby;a
-46;Co je rodina?;Skupina blízkých lidí;Firma;Úřad;Třída;a
-47;Co je manželství?;Svazek dvou lidí;Volby;Soud;Zákon;a
-48;Co je vzdělání?;Proces učení;Sport;Práce;Volby;a
-49;Co je tolerance?;Respekt k ostatním;Nesnášenlivost;Trest;Příkaz;a
-50;Co je solidarita?;Pomoc druhým;Soutěž;Trest;Zákaz;a
+id;question;a;b;c;d;correct
+1;Co je počítač?;Auto;Elektronické zařízení;Telefonní kabel;Lednice;b
+2;K čemu slouží myš?;K ovládání počítače;K tisku;K ukládání dat;K internetu;a
+3;Které zařízení zobrazuje obraz?;Tiskárna;Monitor;Klávesnice;Router;b
+4;Co je internet?;Program;Počítač;Síť propojených počítačů;Hra;c
+5;Které zařízení tiskne dokumenty?;Monitor;Myš;Tiskárna;Router;c
+6;K čemu slouží klávesnice?;K psaní textu;K internetu;K ukládání dat;K fotografování;a
+7;Co znamená WWW?;World Wide Web;Windows Web World;Web Wireless Window;Wide World Web;a
+8;Jaký program slouží k psaní textu?;Word;Excel;Paint;Chrome;a
+9;K čemu slouží Excel?;K úpravě videí;K tabulkám a výpočtům;K hraní her;K internetu;b
+10;Jaká je přípona dokumentu Wordu?;.docx;.png;.mp3;.exe;a
+11;Co je heslo?;Ochrana účtu;Typ monitoru;Program;Klávesa;a
+12;Které zařízení ukládá data?;SSD disk;Monitor;Reproduktor;Myš;a
+13;Co je virus v počítači?;Hra;Škodlivý program;Tiskárna;Operační systém;b
+14;K čemu slouží antivirus?;K ochraně počítače;K internetu;K psaní textu;K tisku;a
+15;Co znamená USB?;Kabel pro připojení zařízení;Monitor;Operační systém;Program;a
+16;Který program slouží k internetu?;Chrome;Excel;Word;Paint;a
+17;Co je e-mail?;Počítač;Elektronická pošta;Monitor;Tiskárna;b
+18;Jaká je přípona obrázku?;.jpg;.docx;.exe;.mp3;a
+19;Co znamená Wi-Fi?;Bezdrátové připojení;Tiskárna;Typ kabelu;Program;a
+20;K čemu slouží reproduktory?;K zvuku;K internetu;K tisku;K ukládání dat;a
+21;Co je složka?;Místo pro ukládání souborů;Monitor;Klávesnice;Program;a
+22;Které tlačítko maže text?;Delete;Shift;Tab;Alt;a
+23;Co je operační systém?;Program pro řízení počítače;Virus;Monitor;Tiskárna;a
+24;Který operační systém je od Microsoftu?;Linux;Windows;Android;Ubuntu;b
+25;Co znamená CTRL+C?;Kopírovat;Vložit;Uložit;Tisknout;a
+26;Co znamená CTRL+V?;Smazat;Vložit;Kopírovat;Zavřít;b
+27;K čemu slouží internetový prohlížeč?;K prohlížení webu;K tisku;K ukládání dat;K hraní her;a
+28;Co je webová stránka?;Stránka na internetu;Program;Soubor;Hra;a
+29;Jak se jmenuje vyhledávač?;Google;Excel;Word;Paint;a
+30;K čemu slouží flash disk?;K ukládání dat;K internetu;K tisku;K fotografování;a
+31;Co je monitor?;Výstupní zařízení;Vstupní zařízení;Kabel;Program;a
+32;Jaká je přípona hudby?;.mp3;.jpg;.docx;.exe;a
+33;Který program slouží na kreslení?;Paint;Excel;Word;Chrome;a
+34;Co znamená online?;Připojený k internetu;Vypnutý;Rozbitý;Bez proudu;a
+35;K čemu slouží router?;K připojení internetu;K tisku;K ukládání dat;K fotografování;a
+36;Co je soubor?;Uložená data;Monitor;Klávesnice;Program;a
+37;Jaká klávesa slouží k novému řádku?;Enter;Alt;Shift;Tab;a
+38;Co znamená přihlášení?;Vstup do účtu;Vypnutí počítače;Tisk dokumentu;Mazání dat;a
+39;K čemu slouží cloud?;Online ukládání dat;K tisku;K hraní her;K vypnutí PC;a
+40;Co je aplikace?;Program;Monitor;Kabel;Disk;a
+41;Které zařízení pořizuje fotografie?;Webkamera;Monitor;Klávesnice;Router;a
+42;Co znamená aktualizace?;Novější verze programu;Vypnutí PC;Tisk dokumentu;Mazání souborů;a
+43;Co je příloha e-mailu?;Soubor přidaný do zprávy;Virus;Heslo;Monitor;a
+44;Jaké zařízení používáme pro zvukový vstup?;Mikrofon;Monitor;Tiskárna;Myš;a
+45;K čemu slouží složka Koš?;Pro smazané soubory;K internetu;K tisku;K hudbě;a
+46;Co znamená restart počítače?;Znovu spustit;Vypnout navždy;Smazat data;Tisknout dokumenty;a
+47;Jak poznáme bezpečný web?;Má HTTPS;Je červený;Nemá obrázky;Je pomalý;a
+48;Co je uživatelské jméno?;Identifikace uživatele;Virus;Program;Monitor;a
+49;K čemu slouží heslo?;K ochraně účtu;K tisku;K internetu;K vypnutí PC;a
+50;Co znamená uložit soubor?;Zapsat data do paměti;Smazat data;Vytisknout data;Poslat e-mail;a
