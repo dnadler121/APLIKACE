@@ -18,7 +18,7 @@
 
 <div class="lesson-card">
 
-    <h1>{{ q.title }}</h1>
+    <h1>{{ q.icon }} {{ q.title }}</h1>
 
     <p>{{ q.intro }}</p>
 
@@ -32,15 +32,7 @@
         <tr>
 
             {% for cell in row %}
-
-                {% set cell_name = q.cols[loop.index0] ~ row[0] %}
-
-                {% if solved and cell_name == q.result_cell %}
-                    <td class="result-cell">{{ q.result }}</td>
-                {% else %}
-                    <td>{{ cell }}</td>
-                {% endif %}
-
+                <td>{{ cell }}</td>
             {% endfor %}
 
         </tr>
@@ -73,7 +65,7 @@
 
     {% if solved %}
 
-    <a class="next-btn" href="/next">
+    <a class="next-btn" href="{{ url_for('excel.next_task') }}">
         Další úloha ➜
     </a>
 
