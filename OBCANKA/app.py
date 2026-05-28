@@ -253,4 +253,3 @@ def restart():
     session.clear()
 
     return redirect(url_for("obcanka.login"))
-
