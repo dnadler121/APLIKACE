@@ -9,43 +9,43 @@ excel_bp = Blueprint(
 
 QUESTIONS = [
 
-# 1
 {
     "title": "KDYŽ – podmínka",
     "icon": "🟢",
-    "intro": "Urči velikost objednávky.",
-    "task": "Pokud je částka větší než 2000 napiš VELKÁ jinak MALÁ.",
+    "intro": "Doplň do sloupce C výsledek.",
+    "task": "Když je hodnota v B2 větší než 2000 napiš VELKÁ, jinak napiš MALÁ.",
     "cols": ["", "A", "B", "C"],
     "rows": [
         ["1", "Produkt", "Částka", "Výsledek"],
-        ["2", "Káva", "1200", "?"]
+        ["2", "Káva", "1200", "?"],
+        ["3", "Čaj", "2500", "?"]
     ],
     "answer": '=KDYŽ(B2>2000;"VELKÁ";"MALÁ")',
     "result": "MALÁ"
 },
 
-# 2
 {
     "title": "SVYHLEDAT – ceny",
     "icon": "🔍",
-    "intro": "Vyhledej cenu.",
-    "task": "Vyhledej cenu produktu z A2.",
+    "intro": "Najdi cenu produktu.",
+    "task": "Vezmi hodnotu z A2, hledej ji v tabulce E2:F5, vrať druhý sloupec a nakonec napiš 0.",
     "cols": ["", "A", "B", "", "", "E", "F"],
     "rows": [
-        ["1", "Produkt", "Cena", "", "", "Produkt", "Cena"],
-        ["2", "Káva", "?", "", "", "Káva", "49"],
-        ["3", "", "", "", "", "Čaj", "39"]
+        ["1", "Hledané", "Výsledek", "", "", "Jídlo", "Cena"],
+        ["2", "Káva", "?", "", "", "Polévka", "45"],
+        ["3", "", "", "", "", "Káva", "49"],
+        ["4", "", "", "", "", "Řízek", "145"],
+        ["5", "", "", "", "", "Dezert", "69"]
     ],
-    "answer": '=SVYHLEDAT(A2;E2:F3;2;0)',
+    "answer": '=SVYHLEDAT(A2;E2:F5;2;0)',
     "result": "49"
 },
 
-# 3
 {
     "title": "KDYŽ – sleva",
     "icon": "🟢",
-    "intro": "Urči slevu.",
-    "task": "Pokud je cena vyšší než 500 napiš ANO jinak NE.",
+    "intro": "Rozhodni o slevě.",
+    "task": "Když je hodnota v A2 větší než 500 napiš ANO, jinak napiš NE.",
     "cols": ["", "A", "B"],
     "rows": [
         ["1", "Cena", "Sleva"],
@@ -55,27 +55,25 @@ QUESTIONS = [
     "result": "ANO"
 },
 
-# 4
 {
     "title": "SVYHLEDAT – zaměstnanec",
     "icon": "🔍",
     "intro": "Najdi plat.",
-    "task": "Vyhledej plat zaměstnance.",
+    "task": "Vezmi jméno z A2, najdi ho v tabulce E2:F2, vrať druhý sloupec a nakonec napiš 0.",
     "cols": ["", "A", "B", "", "", "E", "F"],
     "rows": [
-        ["1", "Jméno", "Plat", "", "", "Jméno", "Plat"],
-        ["2", "Eva", "?", "", "", "Eva", "32000"]
+        ["1", "Jméno", "Plat", "", "", "Eva", "32000"],
+        ["2", "Eva", "?"]
     ],
     "answer": '=SVYHLEDAT(A2;E2:F2;2;0)',
     "result": "32000"
 },
 
-# 5
 {
     "title": "KDYŽ – docházka",
     "icon": "🟢",
     "intro": "Vyhodnoť docházku.",
-    "task": "Pokud je docházka větší než 80 napiš SPLNIL.",
+    "task": "Když je číslo v A2 větší než 80 napiš SPLNIL, jinak napiš NESPLNIL.",
     "cols": ["", "A", "B"],
     "rows": [
         ["1", "Docházka", "Výsledek"],
@@ -85,12 +83,11 @@ QUESTIONS = [
     "result": "SPLNIL"
 },
 
-# 6
 {
     "title": "SVYHLEDAT – města",
     "icon": "🔍",
-    "intro": "Vyhledej stát.",
-    "task": "Vyhledej stát města.",
+    "intro": "Najdi stát.",
+    "task": "Vezmi město z A2, najdi ho v tabulce E1:F1, vrať druhý sloupec a nakonec napiš 0.",
     "cols": ["", "A", "B", "", "", "E", "F"],
     "rows": [
         ["1", "Město", "Stát", "", "", "Praha", "ČR"],
@@ -100,12 +97,11 @@ QUESTIONS = [
     "result": "ČR"
 },
 
-# 7
 {
     "title": "KDYŽ – věk",
     "icon": "🟢",
     "intro": "Urči dospělost.",
-    "task": "Pokud je věk větší nebo roven 18 napiš DOSPĚLÝ.",
+    "task": "Když je číslo v A2 větší nebo rovno 18 napiš DOSPĚLÝ, jinak napiš DÍTĚ.",
     "cols": ["", "A", "B"],
     "rows": [
         ["1", "Věk", "Výsledek"],
@@ -115,12 +111,11 @@ QUESTIONS = [
     "result": "DOSPĚLÝ"
 },
 
-# 8
 {
     "title": "SVYHLEDAT – známky",
     "icon": "🔍",
-    "intro": "Vyhledej známku.",
-    "task": "Vyhledej známku žáka.",
+    "intro": "Najdi známku.",
+    "task": "Vezmi jméno z A2, najdi ho v tabulce E1:F1, vrať druhý sloupec a nakonec napiš 0.",
     "cols": ["", "A", "B", "", "", "E", "F"],
     "rows": [
         ["1", "Žák", "Známka", "", "", "Tomáš", "2"],
@@ -130,12 +125,11 @@ QUESTIONS = [
     "result": "2"
 },
 
-# 9
 {
     "title": "KDYŽ – sklad",
     "icon": "🟢",
     "intro": "Zkontroluj sklad.",
-    "task": "Pokud je počet menší než 10 napiš OBJEDNAT.",
+    "task": "Když je číslo v A2 menší než 10 napiš OBJEDNAT, jinak napiš SKLADEM.",
     "cols": ["", "A", "B"],
     "rows": [
         ["1", "Počet", "Výsledek"],
@@ -145,12 +139,11 @@ QUESTIONS = [
     "result": "OBJEDNAT"
 },
 
-# 10
 {
     "title": "SVYHLEDAT – telefon",
     "icon": "🔍",
     "intro": "Najdi telefon.",
-    "task": "Vyhledej telefon zákazníka.",
+    "task": "Vezmi jméno z A2, najdi ho v tabulce E1:F1, vrať druhý sloupec a nakonec napiš 0.",
     "cols": ["", "A", "B", "", "", "E", "F"],
     "rows": [
         ["1", "Jméno", "Telefon", "", "", "Petr", "777888999"],
@@ -160,12 +153,11 @@ QUESTIONS = [
     "result": "777888999"
 },
 
-# 11
 {
     "title": "KDYŽ – bonus",
     "icon": "🟢",
-    "intro": "Urči bonus.",
-    "task": "Pokud je prodej větší než 10000 napiš BONUS.",
+    "intro": "Rozhodni o bonusu.",
+    "task": "Když je číslo v A2 větší než 10000 napiš BONUS, jinak napiš BEZ BONUSU.",
     "cols": ["", "A", "B"],
     "rows": [
         ["1", "Prodej", "Výsledek"],
@@ -175,12 +167,11 @@ QUESTIONS = [
     "result": "BONUS"
 },
 
-# 12
 {
     "title": "SVYHLEDAT – suroviny",
     "icon": "🔍",
     "intro": "Najdi cenu suroviny.",
-    "task": "Vyhledej cenu mouky.",
+    "task": "Vezmi hodnotu z A2, najdi ji v tabulce E1:F1, vrať druhý sloupec a nakonec napiš 0.",
     "cols": ["", "A", "B", "", "", "E", "F"],
     "rows": [
         ["1", "Surovina", "Cena", "", "", "Mouka", "25"],
@@ -190,12 +181,11 @@ QUESTIONS = [
     "result": "25"
 },
 
-# 13
 {
     "title": "KDYŽ – úspěšnost",
     "icon": "🟢",
     "intro": "Vyhodnoť test.",
-    "task": "Pokud je výsledek větší než 50 napiš PROSPĚL.",
+    "task": "Když je číslo v A2 větší než 50 napiš PROSPĚL, jinak napiš NEPROSPĚL.",
     "cols": ["", "A", "B"],
     "rows": [
         ["1", "Body", "Výsledek"],
@@ -205,12 +195,11 @@ QUESTIONS = [
     "result": "PROSPĚL"
 },
 
-# 14
 {
     "title": "SVYHLEDAT – učebny",
     "icon": "🔍",
     "intro": "Najdi učebnu.",
-    "task": "Vyhledej učebnu předmětu.",
+    "task": "Vezmi hodnotu z A2, najdi ji v tabulce E1:F1, vrať druhý sloupec a nakonec napiš 0.",
     "cols": ["", "A", "B", "", "", "E", "F"],
     "rows": [
         ["1", "Předmět", "Učebna", "", "", "ICT", "12"],
@@ -220,12 +209,11 @@ QUESTIONS = [
     "result": "12"
 },
 
-# 15
 {
     "title": "KDYŽ – mzda",
     "icon": "🟢",
-    "intro": "Urči vysokou mzdu.",
-    "task": "Pokud je mzda větší než 30000 napiš VYSOKÁ.",
+    "intro": "Urči výši mzdy.",
+    "task": "Když je číslo v A2 větší než 30000 napiš VYSOKÁ, jinak napiš NÍZKÁ.",
     "cols": ["", "A", "B"],
     "rows": [
         ["1", "Mzda", "Výsledek"],
@@ -235,12 +223,11 @@ QUESTIONS = [
     "result": "VYSOKÁ"
 },
 
-# 16
 {
     "title": "SVYHLEDAT – menu",
     "icon": "🔍",
     "intro": "Najdi cenu menu.",
-    "task": "Vyhledej cenu menu.",
+    "task": "Vezmi hodnotu z A2, najdi ji v tabulce E1:F1, vrať druhý sloupec a nakonec napiš 0.",
     "cols": ["", "A", "B", "", "", "E", "F"],
     "rows": [
         ["1", "Menu", "Cena", "", "", "Menu 1", "139"],
